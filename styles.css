@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sans Serif Collection";
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 20px black;
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #2563eb;
+}
+.nav-heading {
+    margin-left: 20px;
+    color: dodgerblue;
+}
+
+.masthead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c7e9f3;
+    padding: 50px;
+}
+
+.container {
+    position: relative;
+
+
+}
+
+.header-name {
+    color: dodgerblue;
+}
+
+.btn {
+    width: 150px;
+    border-radius: 6px;
+    border: 2px solid dodgerblue;
+}
+
+.work-btn {
+    background-color: dodgerblue;
+    color: white;
+    transition-duration: 2s;
+    margin-right: 5px;
+}
+
+.work-btn:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px 10px grey;
+
+}
+
+.contact-btn {
+    background-color: white;
+    transition-duration: 2s;
+}
+
+.contact-btn:hover {
+    background-color: dodgerblue;
+    color: white;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.subtitle {
+    color: #454444;
+}
+
+.page-heading p {
+    color: grey;
+    line-height: 30px;
+}
+
+.about {
+    text-align: center;
+}
+
+.about-subtitle {
+    color: rgb(192, 192, 192);
+    font-weight: lighter;
+}
+
+.profile-image {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.about-text {
+    line-height: 5px;
+}
+
+.skill-btn {
+    background-color: #c7e9f3;
+    color: #2563eb;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+    text-align: center;
+    transition-duration: 2s;
+}
+
+.skill-btn:hover {
+    box-shadow: 0 2px 4px;
+}
+
+.project-container {
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.project {
+    height: 400px;
+    width: 30%;
+    border: 2px solid;
+}
